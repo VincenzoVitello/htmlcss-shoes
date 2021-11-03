@@ -25,26 +25,35 @@ ul li{
     width: 50px;
     line-height: 50px;
     text-align: center;
-    box-shadow: black;
 }
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+ul li:hover{
+    box-shadow:  0px 2px 2px 2px rgba(0,0,0,.6)
+}
+
 .container{
     height: 100vh;
     position: relative;
     text-transform: uppercase;
     text-align: center;
 }
+.container img{
+    height: 50vh;
+    width: auto;
+    margin-top: 5%;
+}
 #shoe-one{
-    background-color: red;
-    color: yellow;
+    background-color: #B0171F;
+    color: #FFD700;
 }
 #shoe-two{
     background-color: seagreen;
-    color: yellow
+    color: #FFD700;
 }
 #shoe-three{
     background-color: steelblue;
-    color: green;
-}
-h1{
-    transform: translate(-50%, -50%);
-}
+    color: 	#FFFFE0;
