@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -10,6 +13,7 @@ nav{
     position: fixed;
     top: 50px;
     right: 50px;
+    z-index: 999;
 }
 ul li{
     list-style-type: none;
@@ -19,6 +23,7 @@ ul li{
     border-radius: 50%;
     height: 50px;
     width: 50px;
+    line-height: 50px;
     text-align: center;
     box-shadow: black;
 }
@@ -30,13 +35,16 @@ ul li{
 }
 #shoe-one{
     background-color: red;
+    color: yellow;
 }
 #shoe-two{
     background-color: seagreen;
+    color: yellow
 }
 #shoe-three{
     background-color: steelblue;
+    color: green;
 }
-.container{
-    transform: translateX(-50%), translateY(50%);
+h1{
+    
 }
