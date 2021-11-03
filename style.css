@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    box-shadow: black;
+}
+.container{
+    height: 100vh;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
+#shoe-one{
+    background-color: red;
+}
+#shoe-two{
+    background-color: seagreen;
+}
+#shoe-three{
+    background-color: steelblue;
+}
+.container{
+    transform: translateX(-50%), translateY(50%);
+}
